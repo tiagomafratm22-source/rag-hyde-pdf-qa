@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(& .\\\\venv\\\\Scripts\\\\python.exe -c \"import ast; ast.parse\\(open\\('main.py', encoding='utf-8'\\).read\\(\\)\\); print\\('sintaxe OK'\\)\")",
-      "Bash(./venv/Scripts/python.exe -m pip list --format=freeze)"
-    ]
-  }
-}
